@@ -1,0 +1,2222 @@
+{
+  "version": 3.1,
+  "presentation": "FO2Logics",
+  "slideDict": {
+    "new_slide": "new_slide",
+    "introduction": "introduction",
+    "Satisfiability": "Satisfiability",
+    "Decidability": "Decidability",
+    "Finite_model_property": "Finite_model_property",
+    "Scott": "Scott",
+    "Scott_2": "Scott_2",
+    "Types": "Types",
+    "Types_2": "Types_2",
+    "Goal": "Goal",
+    "Construction": "Construction",
+    "Types_3": "Types_3",
+    "Construction_2": "Construction_2",
+    "Construction_3": "Construction_3",
+    "Construction_details": "Construction_details"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Welcome",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Text",
+        "enabled": "enabled",
+        "name": "“Fast” and simple decidability of first order logics with 2 variables",
+        "merged": false,
+        "keywords": [
+          "“Fast” and simple decidability of first order logics with 2 variables"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "show",
+        "id": "Introduction",
+        "enabled": "enabled",
+        "name": "Introduction",
+        "merged": false,
+        "keywords": [
+          "Introduction"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "show",
+        "id": "Scott_form",
+        "enabled": "enabled",
+        "name": "Scott form",
+        "merged": false,
+        "keywords": [
+          "Scott form"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "show",
+        "id": "Simple_decidability",
+        "enabled": "enabled",
+        "name": "Simple decidability",
+        "merged": false,
+        "keywords": [
+          "Simple decidability"
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "child",
+        "name": "introduction",
+        "id": "introduction",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables",
+            "enabled": "enabled",
+            "name": "Decidability of satisfiability in first order logic over relational signatures using only two variables",
+            "merged": false,
+            "keywords": [
+              "Decidability of satisfiability in first order logic over relational signatures using only two variables"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "hide",
+            "id": "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables",
+            "enabled": "enabled",
+            "name": "Decidability of satisfiability in first order logic over relational signatures using only two variables",
+            "merged": false,
+            "keywords": [
+              "Decidability of satisfiability in first order logic over relational signatures using only two variables"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables2",
+            "enabled": "enabled",
+            "name": "Decidability of satisfiability in first order logic over relational signatures using only two variables",
+            "merged": true,
+            "keywords": [
+              "Decidability of satisfiability in first order logic over relational signatures using only two variables"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Arrow_1",
+            "enabled": "enabled",
+            "name": "Arrow 1",
+            "merged": true,
+            "keywords": [
+              "Arrow 1"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Text",
+            "enabled": "enabled",
+            "name": "Syntax consists of connectives ∨, ¬, ∃ and atomic formulas made from relational predicates of arbitrary arity Quantification over first order variables No functional symbols allowed",
+            "merged": true,
+            "keywords": [
+              "Syntax consists of connectives ∨, ¬, ∃ and atomic formulas made from relational predicates of arbitrary arity Quantification over first order variables No functional symbols allowed"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "_varphi____forall_x__forall_y_______x__leq_y__lor_y__leq_x",
+            "enabled": "enabled",
+            "name": "\\varphi = \\forall x \\forall y \\ . \\ x \\leq y \\lor y \\leq x",
+            "merged": false,
+            "keywords": [
+              "\\varphi = \\forall x \\forall y \\ . \\ x \\leq y \\lor y \\leq x"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "_sigma______leq__",
+            "enabled": "enabled",
+            "name": "\\sigma = \\{\\leq\\}",
+            "merged": true,
+            "keywords": [
+              "\\sigma = \\{\\leq\\}"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables3",
+            "enabled": "enabled",
+            "name": "Decidability of satisfiability in first order logic over relational signatures using only two variables",
+            "merged": false,
+            "keywords": [
+              "Decidability of satisfiability in first order logic over relational signatures using only two variables"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "hide",
+            "id": "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables2",
+            "enabled": "enabled",
+            "name": "Decidability of satisfiability in first order logic over relational signatures using only two variables",
+            "merged": true,
+            "keywords": [
+              "Decidability of satisfiability in first order logic over relational signatures using only two variables"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Arrow_2",
+            "enabled": "enabled",
+            "name": "Arrow 2",
+            "merged": true,
+            "keywords": [
+              "Arrow 2"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Not_OK_",
+            "enabled": "enabled",
+            "name": "Not OK:",
+            "merged": true,
+            "keywords": [
+              "Not OK:"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "_forall_x__forall_y__forall_z_______x__leq_y__land_y__leq_z__implies_x__leq_z",
+            "enabled": "enabled",
+            "name": "\\forall x \\forall y \\forall z \\ . \\ x \\leq y \\land y \\leq z \\implies x \\leq z",
+            "merged": true,
+            "keywords": [
+              "\\forall x \\forall y \\forall z \\ . \\ x \\leq y \\land y \\leq z \\implies x \\leq z"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Not_OK_2",
+            "enabled": "enabled",
+            "name": "OK:",
+            "merged": false,
+            "keywords": [
+              "OK:"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "_forall_x_______x__leq_x__land__forall_x__exists_y_______x__leq_y",
+            "enabled": "enabled",
+            "name": "\\forall x \\ . \\ x \\leq x \\land \\forall x \\exists y \\ . \\ x \\leq y",
+            "merged": true,
+            "keywords": [
+              "\\forall x \\ . \\ x \\leq x \\land \\forall x \\exists y \\ . \\ x \\leq y"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Decidability_of_satisfiability_in_first_order_logic_over_relational_signatures_using_only_two_variables",
+            "enabled": "enabled",
+            "name": "Decidability of satisfiability in first order logic over relational signatures using only two variables",
+            "merged": false,
+            "keywords": [
+              "Decidability of satisfiability in first order logic over relational signatures using only two variables"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Arrow_3",
+            "enabled": "enabled",
+            "name": "Arrow 3",
+            "merged": true,
+            "keywords": [
+              "Arrow 3"
+            ],
+            "eventId": "23"
+          },
+          {
+            "type": "child",
+            "name": "Satisfiability",
+            "id": "Satisfiability",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Satisfiability2",
+                "enabled": "enabled",
+                "name": "Satisfiability",
+                "merged": false,
+                "keywords": [
+                  "Satisfiability"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "example_",
+                "enabled": "enabled",
+                "name": "example:",
+                "merged": false,
+                "keywords": [
+                  "example:"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Signature___E___E_is_binary_relation",
+                "enabled": "enabled",
+                "name": "Signature: {E}, E is binary relation",
+                "merged": false,
+                "keywords": [
+                  "Signature: {E}, E is binary relation"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Sentence_",
+                "enabled": "enabled",
+                "name": "Sentence:",
+                "merged": false,
+                "keywords": [
+                  "Sentence:"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "_forall_x__forall_y__forall_z_______x__leq_y__land_y__leq_z__implies_x__leq_z2",
+                "enabled": "enabled",
+                "name": "\\forall x \\forall y \\forall z \\ . \\ x \\leq y \\land y \\leq z \\implies x \\leq z",
+                "merged": true,
+                "keywords": [
+                  "\\forall x \\forall y \\forall z \\ . \\ x \\leq y \\land y \\leq z \\implies x \\leq z"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Signature___E___E_is_binary_relation2",
+                "enabled": "enabled",
+                "name": "Model: A = {A, E}, A is an arbitrary set E is arbitrary transitive relation",
+                "merged": false,
+                "keywords": [
+                  "Model: A = {A, E}, A is an arbitrary set E is arbitrary transitive relation"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence2",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Text",
+                "enabled": "enabled",
+                "name": "⟺",
+                "merged": true,
+                "keywords": [
+                  "⟺"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence3",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": true,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "child",
+                "name": "Decidability",
+                "id": "Decidability",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Satisfiability2",
+                    "enabled": "enabled",
+                    "name": "Satisfiability",
+                    "merged": false,
+                    "keywords": [
+                      "Satisfiability"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence4",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "First_order_logic__undecidable",
+                    "enabled": "enabled",
+                    "name": "First order logic: undecidable",
+                    "merged": false,
+                    "keywords": [
+                      "First order logic: undecidable"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Quantifier_prefix_fragments_examples_",
+                    "enabled": "enabled",
+                    "name": "Quantifier prefix fragments examples:",
+                    "merged": false,
+                    "keywords": [
+                      "Quantifier prefix fragments examples:"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "____6__undecidable__Turing_expressed_halting_problem_in_that_logic",
+                    "enabled": "enabled",
+                    "name": "∀∃∀∃6: undecidable. Turing expressed halting problem in that logic",
+                    "merged": false,
+                    "keywords": [
+                      "∀∃∀∃6: undecidable. Turing expressed halting problem in that logic"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_____AEA___undecidable",
+                    "enabled": "enabled",
+                    "name": "∀∃∀ (AEA): undecidable",
+                    "merged": false,
+                    "keywords": [
+                      "∀∃∀ (AEA): undecidable"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Quantifier_prefix_fragments_examples_2",
+                    "enabled": "enabled",
+                    "name": "Number of variables examples:",
+                    "merged": false,
+                    "keywords": [
+                      "Number of variables examples:"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "3__variables__FO3__FO4_______undecidable__Can_be_used_to_express_AEA_formulas",
+                    "enabled": "enabled",
+                    "name": "3+ variables (FO3, FO4,...): undecidable. Can be used to express AEA formulas",
+                    "merged": false,
+                    "keywords": [
+                      "3+ variables (FO3, FO4,...): undecidable. Can be used to express AEA formulas"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "2_variables__FO2___decidable_",
+                    "enabled": "enabled",
+                    "name": "2 variables (FO2): decidable!",
+                    "merged": false,
+                    "keywords": [
+                      "2 variables (FO2): decidable!"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "How_can_we_decide_satisfiability_",
+                    "enabled": "enabled",
+                    "name": "How can we decide satisfiability?",
+                    "merged": false,
+                    "keywords": [
+                      "How can we decide satisfiability?"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "child",
+                    "name": "Finite model property",
+                    "id": "Finite_model_property",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Satisfiability2",
+                        "enabled": "enabled",
+                        "name": "Satisfiability",
+                        "merged": false,
+                        "keywords": [
+                          "Satisfiability"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence4",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Satisfiability3",
+                        "enabled": "enabled",
+                        "name": "Satisfiability",
+                        "merged": false,
+                        "keywords": [
+                          "Satisfiability"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "4"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence2",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "show",
+                        "id": "How_can_we_decide_satisfiability_",
+                        "enabled": "enabled",
+                        "name": "For FO2 we’ll prove it has small model property (exponential)",
+                        "merged": false,
+                        "keywords": [
+                          "For FO2 we’ll prove it has small model property (exponential)"
+                        ],
+                        "eventId": "6"
+                      }
+                    ],
+                    "keywords": [
+                      "Finite model property"
+                    ],
+                    "eventId": "11",
+                    "originalParams": {
+                      "Satisfiability2": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence4": {
+                        "opacity": 1
+                      },
+                      "Satisfiability3": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence2": {
+                        "opacity": 1
+                      },
+                      "How_can_we_decide_satisfiability_": {
+                        "opacity": 1
+                      }
+                    }
+                  }
+                ],
+                "keywords": [
+                  "Decidability"
+                ],
+                "eventId": "12",
+                "originalParams": {
+                  "Satisfiability2": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence4": {
+                    "opacity": 1
+                  },
+                  "First_order_logic__undecidable": {
+                    "opacity": 1
+                  },
+                  "Quantifier_prefix_fragments_examples_": {
+                    "opacity": 1
+                  },
+                  "____6__undecidable__Turing_expressed_halting_problem_in_that_logic": {
+                    "opacity": 1
+                  },
+                  "_____AEA___undecidable": {
+                    "opacity": 1
+                  },
+                  "Quantifier_prefix_fragments_examples_2": {
+                    "opacity": 1
+                  },
+                  "3__variables__FO3__FO4_______undecidable__Can_be_used_to_express_AEA_formulas": {
+                    "opacity": 1
+                  },
+                  "2_variables__FO2___decidable_": {
+                    "opacity": 1
+                  },
+                  "How_can_we_decide_satisfiability_": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Satisfiability"
+            ],
+            "eventId": "22",
+            "originalParams": {
+              "Satisfiability2": {
+                "opacity": 1
+              },
+              "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+                "opacity": 1
+              },
+              "example_": {
+                "opacity": 1
+              },
+              "Signature___E___E_is_binary_relation": {
+                "opacity": 1
+              },
+              "Sentence_": {
+                "opacity": 1
+              },
+              "_forall_x__forall_y__forall_z_______x__leq_y__land_y__leq_z__implies_x__leq_z2": {
+                "opacity": 1
+              },
+              "Signature___E___E_is_binary_relation2": {
+                "opacity": 1
+              },
+              "For_given_sentence": {
+                "opacity": 1
+              },
+              "For_given_sentence2": {
+                "opacity": 1
+              },
+              "Text": {
+                "opacity": 1
+              },
+              "For_given_sentence3": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "introduction"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables": {
+            "opacity": 1,
+            "x": 0,
+            "y": 0
+          },
+          "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables2": {
+            "opacity": 1
+          },
+          "_varphi____forall_x__forall_y_______x__leq_y__lor_y__leq_x": {
+            "opacity": 1
+          },
+          "_sigma______leq__": {
+            "opacity": 1
+          },
+          "Arrow_1": {
+            "opacity": 1
+          },
+          "Decidability_of_expressions_in_first_order_logic_over_relational_signatures_using_only_two_variables3": {
+            "opacity": 1
+          },
+          "Arrow_2": {
+            "opacity": 1
+          },
+          "Text": {
+            "opacity": 1
+          },
+          "Not_OK_": {
+            "opacity": 1
+          },
+          "_forall_x__forall_y__forall_z_______x__leq_y__land_y__leq_z__implies_x__leq_z": {
+            "opacity": 1
+          },
+          "Not_OK_2": {
+            "opacity": 1
+          },
+          "_forall_x_______x__leq_x__land__forall_x__exists_y_______x__leq_y": {
+            "opacity": 1
+          },
+          "Decidability_of_satisfiability_in_first_order_logic_over_relational_signatures_using_only_two_variables": {
+            "opacity": 1
+          },
+          "Arrow_3": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Scott",
+        "id": "Scott",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Satisfiability2",
+            "enabled": "enabled",
+            "name": "Scott form",
+            "merged": false,
+            "keywords": [
+              "Scott form"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence2",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "_forall_x__forall_y________alpha_x_y_____land____bigwedge_i__forall_x__exists_y________beta_i_x_y__",
+            "enabled": "enabled",
+            "name": "\\forall x \\forall y \\ . \\ \\alpha(x,y) \\ \\land \\ \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) ",
+            "merged": false,
+            "keywords": [
+              "\\forall x \\forall y \\ . \\ \\alpha(x,y) \\ \\land \\ \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) "
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence3",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence4",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence5",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence6",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "R_x_y_x_",
+            "enabled": "enabled",
+            "name": "R(x,y,x)",
+            "merged": false,
+            "keywords": [
+              "R(x,y,x)"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "R_x_y_x___binary_",
+            "enabled": "enabled",
+            "name": "R(x,y,x) (binary)",
+            "merged": false,
+            "keywords": [
+              "R(x,y,x) (binary)"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "R_x_x_x_",
+            "enabled": "enabled",
+            "name": "R(x,x,x)",
+            "merged": false,
+            "keywords": [
+              "R(x,x,x)"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "R_x_x_x___unary_2",
+            "enabled": "enabled",
+            "name": "R(x,x,x) (unary)",
+            "merged": true,
+            "keywords": [
+              "R(x,x,x) (unary)"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "R_x_x_x_y_x_",
+            "enabled": "enabled",
+            "name": "R(x,x,x,y,x)",
+            "merged": false,
+            "keywords": [
+              "R(x,x,x,y,x)"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "R_x_x_x_y_x___binary_",
+            "enabled": "enabled",
+            "name": "R(x,x,x,y,x) (binary)",
+            "merged": true,
+            "keywords": [
+              "R(x,x,x,y,x) (binary)"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "etc_",
+            "enabled": "enabled",
+            "name": "etc.",
+            "merged": false,
+            "keywords": [
+              "etc."
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "child",
+            "name": "Scott 2",
+            "id": "Scott_2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "For_given_sentence3",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_forall_x__forall_y________alpha_x_y_____land____bigwedge_i__forall_x__exists_y________beta_i_x_y__2",
+                "enabled": "enabled",
+                "name": "\\forall x \\forall y \\ . \\ \\alpha(x,y) \\ \\land \\ \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) ",
+                "merged": true,
+                "keywords": [
+                  "\\forall x \\forall y \\ . \\ \\alpha(x,y) \\ \\land \\ \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) "
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "_forall_textbf_v__Q__Psi__textbf_v___iff_theta____Psi___textbf_v___",
+                "enabled": "enabled",
+                "name": "\\forall\\textbf{v}(Q_\\Psi(\\textbf{v})\\iff\\theta'_{\\Psi}(\\textbf{v}))",
+                "merged": true,
+                "keywords": [
+                  "\\forall\\textbf{v}(Q_\\Psi(\\textbf{v})\\iff\\theta'_{\\Psi}(\\textbf{v}))"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence2",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence4",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence5",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "Scott 2"
+            ],
+            "eventId": "20",
+            "originalParams": {
+              "For_given_sentence3": {
+                "opacity": 1
+              },
+              "_forall_x__forall_y________alpha_x_y_____land____bigwedge_i__forall_x__exists_y________beta_i_x_y__2": {
+                "opacity": 1
+              },
+              "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+                "opacity": 1
+              },
+              "For_given_sentence": {
+                "opacity": 1
+              },
+              "_forall_textbf_v__Q__Psi__textbf_v___iff_theta____Psi___textbf_v___": {
+                "opacity": 1
+              },
+              "For_given_sentence2": {
+                "opacity": 1
+              },
+              "For_given_sentence4": {
+                "opacity": 1
+              },
+              "For_given_sentence5": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Scott"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "Satisfiability2": {
+            "opacity": 1
+          },
+          "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+            "opacity": 1
+          },
+          "For_given_sentence": {
+            "opacity": 1
+          },
+          "For_given_sentence2": {
+            "opacity": 1
+          },
+          "_forall_x__forall_y________alpha_x_y_____land____bigwedge_i__forall_x__exists_y________beta_i_x_y__": {
+            "opacity": 1
+          },
+          "For_given_sentence3": {
+            "opacity": 1
+          },
+          "For_given_sentence4": {
+            "opacity": 1
+          },
+          "For_given_sentence5": {
+            "opacity": 1
+          },
+          "For_given_sentence6": {
+            "opacity": 1
+          },
+          "R_x_y_x_": {
+            "opacity": 1
+          },
+          "R_x_y_x___binary_": {
+            "opacity": 1
+          },
+          "R_x_x_x_": {
+            "opacity": 1
+          },
+          "R_x_x_x___unary_2": {
+            "opacity": 1
+          },
+          "R_x_x_x_y_x_": {
+            "opacity": 1
+          },
+          "R_x_x_x_y_x___binary_": {
+            "opacity": 1
+          },
+          "etc_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Types",
+        "id": "Types",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Satisfiability2",
+            "enabled": "enabled",
+            "name": "Types",
+            "merged": false,
+            "keywords": [
+              "Types"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence2",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence3",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence4",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence5",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence6",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence7",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence8",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence9",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence10",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence11",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence12",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence13",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence14",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence15",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence19",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence18",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence20",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence21",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": true,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "child",
+            "name": "Types 2",
+            "id": "Types_2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Satisfiability2",
+                "enabled": "enabled",
+                "name": "Types",
+                "merged": false,
+                "keywords": [
+                  "Types"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence2",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence3",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence4",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence6",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence5",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "child",
+                "name": "Types 3",
+                "id": "Types_3",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Satisfiability2",
+                    "enabled": "enabled",
+                    "name": "Types",
+                    "merged": false,
+                    "keywords": [
+                      "Types"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence2",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence3",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence4",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "6"
+                  }
+                ],
+                "keywords": [
+                  "Types 3"
+                ],
+                "eventId": "12",
+                "originalParams": {
+                  "Satisfiability2": {
+                    "opacity": 1
+                  },
+                  "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence2": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence3": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence4": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "Goal",
+                "id": "Goal",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Satisfiability2",
+                    "enabled": "enabled",
+                    "name": "Types",
+                    "merged": false,
+                    "keywords": [
+                      "Types"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_forall_x__forall_y________alpha_x_y_____land____bigwedge_i__forall_x__exists_y________beta_i_x_y__",
+                    "enabled": "enabled",
+                    "name": "\\forall x \\forall y \\ . \\ \\alpha(x,y) \\ \\land \\ \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) ",
+                    "merged": true,
+                    "keywords": [
+                      "\\forall x \\forall y \\ . \\ \\alpha(x,y) \\ \\land \\ \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) "
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence2",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence3",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence4",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence5",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "child",
+                    "name": "Construction",
+                    "id": "Construction",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Satisfiability2",
+                        "enabled": "enabled",
+                        "name": "Types",
+                        "merged": false,
+                        "keywords": [
+                          "Types"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence2",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "11"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": true,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "_forall_x__forall_y________alpha_x_y_",
+                        "enabled": "enabled",
+                        "name": "\\forall x \\forall y \\ . \\ \\alpha(x,y)",
+                        "merged": true,
+                        "keywords": [
+                          "\\forall x \\forall y \\ . \\ \\alpha(x,y)"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": true,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "4"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence3",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence4",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "6"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence5",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "7"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence6",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "8"
+                      },
+                      {
+                        "type": "show",
+                        "id": "A__models__forall_x__forall_y________alpha_x_y___implies_B__models__forall_x__forall_y________alpha_x_y_",
+                        "enabled": "enabled",
+                        "name": "A \\models \\forall x \\forall y \\ . \\ \\alpha(x,y) \\implies B \\models \\forall x \\forall y \\ . \\ \\alpha(x,y)",
+                        "merged": false,
+                        "keywords": [
+                          "A \\models \\forall x \\forall y \\ . \\ \\alpha(x,y) \\implies B \\models \\forall x \\forall y \\ . \\ \\alpha(x,y)"
+                        ],
+                        "eventId": "9"
+                      },
+                      {
+                        "type": "child",
+                        "name": "Construction 2",
+                        "id": "Construction_2",
+                        "enabled": "enabled",
+                        "merged": false,
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "Satisfiability2",
+                            "enabled": "enabled",
+                            "name": "Types",
+                            "merged": false,
+                            "keywords": [
+                              "Types"
+                            ],
+                            "eventId": "1"
+                          },
+                          {
+                            "type": "show",
+                            "id": "For_given_sentence2",
+                            "enabled": "enabled",
+                            "name": "For given sentence",
+                            "merged": false,
+                            "keywords": [
+                              "For given sentence"
+                            ],
+                            "eventId": "2"
+                          },
+                          {
+                            "type": "show",
+                            "id": "_bigwedge_i__forall_x__exists_y________beta_i_x_y_",
+                            "enabled": "enabled",
+                            "name": "\\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)",
+                            "merged": true,
+                            "keywords": [
+                              "\\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)"
+                            ],
+                            "eventId": "3"
+                          },
+                          {
+                            "type": "show",
+                            "id": "For_given_sentence",
+                            "enabled": "enabled",
+                            "name": "For given sentence",
+                            "merged": false,
+                            "keywords": [
+                              "For given sentence"
+                            ],
+                            "eventId": "4"
+                          },
+                          {
+                            "type": "show",
+                            "id": "For_given_sentence3",
+                            "enabled": "enabled",
+                            "name": "For given sentence",
+                            "merged": false,
+                            "keywords": [
+                              "For given sentence"
+                            ],
+                            "eventId": "5"
+                          },
+                          {
+                            "type": "show",
+                            "id": "For_given_sentence4",
+                            "enabled": "enabled",
+                            "name": "For given sentence",
+                            "merged": false,
+                            "keywords": [
+                              "For given sentence"
+                            ],
+                            "eventId": "6"
+                          },
+                          {
+                            "type": "show",
+                            "id": "For_given_sentence6",
+                            "enabled": "enabled",
+                            "name": "For given sentence",
+                            "merged": false,
+                            "keywords": [
+                              "For given sentence"
+                            ],
+                            "eventId": "7"
+                          },
+                          {
+                            "type": "show",
+                            "id": "A__models__bigwedge_i__forall_x__exists_y________beta_i_x_y___implies_B__models__bigwedge_i__forall_x__exists_y________beta_i_x_y_",
+                            "enabled": "enabled",
+                            "name": "A \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) \\implies B \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)",
+                            "merged": true,
+                            "keywords": [
+                              "A \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) \\implies B \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)"
+                            ],
+                            "eventId": "8"
+                          },
+                          {
+                            "type": "child",
+                            "name": "Construction 3",
+                            "id": "Construction_3",
+                            "enabled": "enabled",
+                            "merged": false,
+                            "children": [
+                              {
+                                "type": "show",
+                                "id": "Satisfiability2",
+                                "enabled": "enabled",
+                                "name": "Types",
+                                "merged": false,
+                                "keywords": [
+                                  "Types"
+                                ],
+                                "eventId": "1"
+                              },
+                              {
+                                "type": "show",
+                                "id": "For_given_sentence2",
+                                "enabled": "enabled",
+                                "name": "For given sentence",
+                                "merged": false,
+                                "keywords": [
+                                  "For given sentence"
+                                ],
+                                "eventId": "2"
+                              },
+                              {
+                                "type": "show",
+                                "id": "For_given_sentence3",
+                                "enabled": "enabled",
+                                "name": "For given sentence",
+                                "merged": false,
+                                "keywords": [
+                                  "For given sentence"
+                                ],
+                                "eventId": "3"
+                              },
+                              {
+                                "type": "show",
+                                "id": "For_given_sentence",
+                                "enabled": "enabled",
+                                "name": "For given sentence",
+                                "merged": false,
+                                "keywords": [
+                                  "For given sentence"
+                                ],
+                                "eventId": "4"
+                              },
+                              {
+                                "type": "show",
+                                "id": "t____k___t___text_max__kl__3l___leq_k__text_max__kl__3l___leq_2__2n___4m_",
+                                "enabled": "enabled",
+                                "name": "t + (k - t) \\text{max}(kl, 3l) \\leq k \\text{max}(kl, 3l) \\leq 2^{2n + 4m}",
+                                "merged": false,
+                                "keywords": [
+                                  "t + (k - t) \\text{max}(kl, 3l) \\leq k \\text{max}(kl, 3l) \\leq 2^{2n + 4m}"
+                                ],
+                                "eventId": "5"
+                              },
+                              {
+                                "type": "show",
+                                "id": "For_given_sentence4",
+                                "enabled": "enabled",
+                                "name": "For given sentence",
+                                "merged": true,
+                                "keywords": [
+                                  "For given sentence"
+                                ],
+                                "eventId": "6"
+                              },
+                              {
+                                "type": "show",
+                                "id": "For_given_sentence5",
+                                "enabled": "enabled",
+                                "name": "For given sentence",
+                                "merged": false,
+                                "keywords": [
+                                  "For given sentence"
+                                ],
+                                "eventId": "8"
+                              },
+                              {
+                                "type": "child",
+                                "name": "Construction details",
+                                "id": "Construction_details",
+                                "enabled": "enabled",
+                                "merged": false,
+                                "children": [
+                                  {
+                                    "type": "show",
+                                    "id": "Satisfiability2",
+                                    "enabled": "enabled",
+                                    "name": "Types",
+                                    "merged": false,
+                                    "keywords": [
+                                      "Types"
+                                    ],
+                                    "eventId": "1"
+                                  },
+                                  {
+                                    "type": "show",
+                                    "id": "For_given_sentence2",
+                                    "enabled": "enabled",
+                                    "name": "For given sentence",
+                                    "merged": false,
+                                    "keywords": [
+                                      "For given sentence"
+                                    ],
+                                    "eventId": "2"
+                                  }
+                                ],
+                                "keywords": [
+                                  "Construction details"
+                                ],
+                                "eventId": "7",
+                                "originalParams": {
+                                  "Satisfiability2": {
+                                    "opacity": 1
+                                  },
+                                  "For_given_sentence2": {
+                                    "opacity": 1
+                                  }
+                                }
+                              }
+                            ],
+                            "keywords": [
+                              "Construction 3"
+                            ],
+                            "eventId": "9",
+                            "originalParams": {
+                              "Satisfiability2": {
+                                "opacity": 1
+                              },
+                              "For_given_sentence2": {
+                                "opacity": 1
+                              },
+                              "For_given_sentence3": {
+                                "opacity": 1
+                              },
+                              "For_given_sentence": {
+                                "opacity": 1
+                              },
+                              "t____k___t___text_max__kl__3l___leq_k__text_max__kl__3l___leq_2__2n___4m_": {
+                                "opacity": 1
+                              },
+                              "For_given_sentence4": {
+                                "opacity": 1
+                              },
+                              "For_given_sentence5": {
+                                "opacity": 1
+                              }
+                            }
+                          }
+                        ],
+                        "keywords": [
+                          "Construction 2"
+                        ],
+                        "eventId": "10",
+                        "originalParams": {
+                          "Satisfiability2": {
+                            "opacity": 1
+                          },
+                          "For_given_sentence2": {
+                            "opacity": 1
+                          },
+                          "_bigwedge_i__forall_x__exists_y________beta_i_x_y_": {
+                            "opacity": 1
+                          },
+                          "For_given_sentence": {
+                            "opacity": 1
+                          },
+                          "For_given_sentence3": {
+                            "opacity": 1
+                          },
+                          "For_given_sentence4": {
+                            "opacity": 1
+                          },
+                          "For_given_sentence6": {
+                            "opacity": 1
+                          },
+                          "A__models__bigwedge_i__forall_x__exists_y________beta_i_x_y___implies_B__models__bigwedge_i__forall_x__exists_y________beta_i_x_y_": {
+                            "opacity": 1
+                          }
+                        }
+                      }
+                    ],
+                    "keywords": [
+                      "Construction"
+                    ],
+                    "eventId": "8",
+                    "originalParams": {
+                      "Satisfiability2": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence": {
+                        "opacity": 1
+                      },
+                      "_forall_x__forall_y________alpha_x_y_": {
+                        "opacity": 1
+                      },
+                      "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence3": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence4": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence5": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence6": {
+                        "opacity": 1
+                      },
+                      "A__models__forall_x__forall_y________alpha_x_y___implies_B__models__forall_x__forall_y________alpha_x_y_": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence2": {
+                        "opacity": 1
+                      }
+                    }
+                  }
+                ],
+                "keywords": [
+                  "Text",
+                  "Goal"
+                ],
+                "eventId": "10",
+                "originalParams": {
+                  "Satisfiability2": {
+                    "opacity": 1
+                  },
+                  "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+                    "opacity": 1
+                  },
+                  "_forall_x__forall_y________alpha_x_y_____land____bigwedge_i__forall_x__exists_y________beta_i_x_y__": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence2": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence3": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence4": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence5": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Types 2"
+            ],
+            "eventId": "23",
+            "originalParams": {
+              "Satisfiability2": {
+                "opacity": 1
+              },
+              "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+                "opacity": 1
+              },
+              "For_given_sentence2": {
+                "opacity": 1
+              },
+              "For_given_sentence": {
+                "opacity": 1
+              },
+              "For_given_sentence3": {
+                "opacity": 1
+              },
+              "For_given_sentence4": {
+                "opacity": 1
+              },
+              "For_given_sentence6": {
+                "opacity": 1
+              },
+              "For_given_sentence5": {
+                "opacity": 1
+              },
+              "For_given_sentence7": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Types"
+        ],
+        "eventId": "10",
+        "originalParams": {
+          "Satisfiability2": {
+            "opacity": 1
+          },
+          "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+            "opacity": 1
+          },
+          "For_given_sentence": {
+            "opacity": 1
+          },
+          "For_given_sentence2": {
+            "opacity": 1
+          },
+          "For_given_sentence3": {
+            "opacity": 1
+          },
+          "For_given_sentence4": {
+            "opacity": 1
+          },
+          "For_given_sentence5": {
+            "opacity": 1
+          },
+          "For_given_sentence6": {
+            "opacity": 1
+          },
+          "For_given_sentence7": {
+            "opacity": 1
+          },
+          "For_given_sentence8": {
+            "opacity": 1
+          },
+          "For_given_sentence9": {
+            "opacity": 1
+          },
+          "For_given_sentence10": {
+            "opacity": 1
+          },
+          "For_given_sentence11": {
+            "opacity": 1
+          },
+          "For_given_sentence12": {
+            "opacity": 1
+          },
+          "For_given_sentence13": {
+            "opacity": 1
+          },
+          "For_given_sentence14": {
+            "opacity": 1
+          },
+          "For_given_sentence15": {
+            "opacity": 1
+          },
+          "For_given_sentence19": {
+            "opacity": 1
+          },
+          "For_given_sentence18": {
+            "opacity": 1
+          },
+          "For_given_sentence20": {
+            "opacity": 1
+          },
+          "For_given_sentence21": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Welcome"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Text": {
+        "opacity": 1
+      },
+      "Introduction": {
+        "opacity": 1
+      },
+      "Scott_form": {
+        "opacity": 1
+      },
+      "Simple_decidability": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
