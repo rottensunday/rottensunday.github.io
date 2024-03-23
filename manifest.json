@@ -1736,289 +1736,6 @@
                           "A \\models \\forall x \\forall y \\ . \\ \\alpha(x,y) \\implies B \\models \\forall x \\forall y \\ . \\ \\alpha(x,y)"
                         ],
                         "eventId": "9"
-                      },
-                      {
-                        "type": "child",
-                        "name": "Construction 2",
-                        "id": "Construction_2",
-                        "enabled": "enabled",
-                        "merged": false,
-                        "children": [
-                          {
-                            "type": "show",
-                            "id": "Satisfiability2",
-                            "enabled": "enabled",
-                            "name": "Types",
-                            "merged": false,
-                            "keywords": [
-                              "Types"
-                            ],
-                            "eventId": "1"
-                          },
-                          {
-                            "type": "show",
-                            "id": "For_given_sentence2",
-                            "enabled": "enabled",
-                            "name": "For given sentence",
-                            "merged": false,
-                            "keywords": [
-                              "For given sentence"
-                            ],
-                            "eventId": "2"
-                          },
-                          {
-                            "type": "show",
-                            "id": "_bigwedge_i__forall_x__exists_y________beta_i_x_y_",
-                            "enabled": "enabled",
-                            "name": "\\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)",
-                            "merged": true,
-                            "keywords": [
-                              "\\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)"
-                            ],
-                            "eventId": "3"
-                          },
-                          {
-                            "type": "show",
-                            "id": "For_given_sentence",
-                            "enabled": "enabled",
-                            "name": "For given sentence",
-                            "merged": false,
-                            "keywords": [
-                              "For given sentence"
-                            ],
-                            "eventId": "4"
-                          },
-                          {
-                            "type": "show",
-                            "id": "For_given_sentence3",
-                            "enabled": "enabled",
-                            "name": "For given sentence",
-                            "merged": false,
-                            "keywords": [
-                              "For given sentence"
-                            ],
-                            "eventId": "5"
-                          },
-                          {
-                            "type": "show",
-                            "id": "For_given_sentence4",
-                            "enabled": "enabled",
-                            "name": "For given sentence",
-                            "merged": false,
-                            "keywords": [
-                              "For given sentence"
-                            ],
-                            "eventId": "6"
-                          },
-                          {
-                            "type": "show",
-                            "id": "For_given_sentence6",
-                            "enabled": "enabled",
-                            "name": "For given sentence",
-                            "merged": false,
-                            "keywords": [
-                              "For given sentence"
-                            ],
-                            "eventId": "7"
-                          },
-                          {
-                            "type": "show",
-                            "id": "A__models__bigwedge_i__forall_x__exists_y________beta_i_x_y___implies_B__models__bigwedge_i__forall_x__exists_y________beta_i_x_y_",
-                            "enabled": "enabled",
-                            "name": "A \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) \\implies B \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)",
-                            "merged": true,
-                            "keywords": [
-                              "A \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) \\implies B \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)"
-                            ],
-                            "eventId": "8"
-                          },
-                          {
-                            "type": "child",
-                            "name": "Construction 3",
-                            "id": "Construction_3",
-                            "enabled": "enabled",
-                            "merged": false,
-                            "children": [
-                              {
-                                "type": "show",
-                                "id": "Satisfiability2",
-                                "enabled": "enabled",
-                                "name": "Types",
-                                "merged": false,
-                                "keywords": [
-                                  "Types"
-                                ],
-                                "eventId": "1"
-                              },
-                              {
-                                "type": "show",
-                                "id": "For_given_sentence2",
-                                "enabled": "enabled",
-                                "name": "For given sentence",
-                                "merged": false,
-                                "keywords": [
-                                  "For given sentence"
-                                ],
-                                "eventId": "2"
-                              },
-                              {
-                                "type": "show",
-                                "id": "For_given_sentence3",
-                                "enabled": "enabled",
-                                "name": "For given sentence",
-                                "merged": false,
-                                "keywords": [
-                                  "For given sentence"
-                                ],
-                                "eventId": "3"
-                              },
-                              {
-                                "type": "show",
-                                "id": "For_given_sentence",
-                                "enabled": "enabled",
-                                "name": "For given sentence",
-                                "merged": false,
-                                "keywords": [
-                                  "For given sentence"
-                                ],
-                                "eventId": "4"
-                              },
-                              {
-                                "type": "show",
-                                "id": "t____k___t___text_max__kl__3l___leq_k__text_max__kl__3l___leq_2__2n___4m_",
-                                "enabled": "enabled",
-                                "name": "t + (k - t) \\text{max}(kl, 3l) \\leq k \\text{max}(kl, 3l) \\leq 2^{2n + 4m}",
-                                "merged": false,
-                                "keywords": [
-                                  "t + (k - t) \\text{max}(kl, 3l) \\leq k \\text{max}(kl, 3l) \\leq 2^{2n + 4m}"
-                                ],
-                                "eventId": "5"
-                              },
-                              {
-                                "type": "show",
-                                "id": "For_given_sentence4",
-                                "enabled": "enabled",
-                                "name": "For given sentence",
-                                "merged": true,
-                                "keywords": [
-                                  "For given sentence"
-                                ],
-                                "eventId": "6"
-                              },
-                              {
-                                "type": "show",
-                                "id": "For_given_sentence5",
-                                "enabled": "enabled",
-                                "name": "For given sentence",
-                                "merged": false,
-                                "keywords": [
-                                  "For given sentence"
-                                ],
-                                "eventId": "8"
-                              },
-                              {
-                                "type": "child",
-                                "name": "Construction details",
-                                "id": "Construction_details",
-                                "enabled": "enabled",
-                                "merged": false,
-                                "children": [
-                                  {
-                                    "type": "show",
-                                    "id": "Satisfiability2",
-                                    "enabled": "enabled",
-                                    "name": "Types",
-                                    "merged": false,
-                                    "keywords": [
-                                      "Types"
-                                    ],
-                                    "eventId": "1"
-                                  },
-                                  {
-                                    "type": "show",
-                                    "id": "For_given_sentence2",
-                                    "enabled": "enabled",
-                                    "name": "For given sentence",
-                                    "merged": false,
-                                    "keywords": [
-                                      "For given sentence"
-                                    ],
-                                    "eventId": "2"
-                                  }
-                                ],
-                                "keywords": [
-                                  "Construction details"
-                                ],
-                                "eventId": "7",
-                                "originalParams": {
-                                  "Satisfiability2": {
-                                    "opacity": 1
-                                  },
-                                  "For_given_sentence2": {
-                                    "opacity": 1
-                                  }
-                                }
-                              }
-                            ],
-                            "keywords": [
-                              "Construction 3"
-                            ],
-                            "eventId": "9",
-                            "originalParams": {
-                              "Satisfiability2": {
-                                "opacity": 1
-                              },
-                              "For_given_sentence2": {
-                                "opacity": 1
-                              },
-                              "For_given_sentence3": {
-                                "opacity": 1
-                              },
-                              "For_given_sentence": {
-                                "opacity": 1
-                              },
-                              "t____k___t___text_max__kl__3l___leq_k__text_max__kl__3l___leq_2__2n___4m_": {
-                                "opacity": 1
-                              },
-                              "For_given_sentence4": {
-                                "opacity": 1
-                              },
-                              "For_given_sentence5": {
-                                "opacity": 1
-                              }
-                            }
-                          }
-                        ],
-                        "keywords": [
-                          "Construction 2"
-                        ],
-                        "eventId": "10",
-                        "originalParams": {
-                          "Satisfiability2": {
-                            "opacity": 1
-                          },
-                          "For_given_sentence2": {
-                            "opacity": 1
-                          },
-                          "_bigwedge_i__forall_x__exists_y________beta_i_x_y_": {
-                            "opacity": 1
-                          },
-                          "For_given_sentence": {
-                            "opacity": 1
-                          },
-                          "For_given_sentence3": {
-                            "opacity": 1
-                          },
-                          "For_given_sentence4": {
-                            "opacity": 1
-                          },
-                          "For_given_sentence6": {
-                            "opacity": 1
-                          },
-                          "A__models__bigwedge_i__forall_x__exists_y________beta_i_x_y___implies_B__models__bigwedge_i__forall_x__exists_y________beta_i_x_y_": {
-                            "opacity": 1
-                          }
-                        }
                       }
                     ],
                     "keywords": [
@@ -2051,6 +1768,289 @@
                         "opacity": 1
                       },
                       "A__models__forall_x__forall_y________alpha_x_y___implies_B__models__forall_x__forall_y________alpha_x_y_": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence2": {
+                        "opacity": 1
+                      }
+                    }
+                  },
+                  {
+                    "type": "child",
+                    "name": "Construction 2",
+                    "id": "Construction_2",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Satisfiability2",
+                        "enabled": "enabled",
+                        "name": "Types",
+                        "merged": false,
+                        "keywords": [
+                          "Types"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence2",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "_bigwedge_i__forall_x__exists_y________beta_i_x_y_",
+                        "enabled": "enabled",
+                        "name": "\\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)",
+                        "merged": true,
+                        "keywords": [
+                          "\\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "4"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence3",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence4",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "6"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence6",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "7"
+                      },
+                      {
+                        "type": "show",
+                        "id": "A__models__bigwedge_i__forall_x__exists_y________beta_i_x_y___implies_B__models__bigwedge_i__forall_x__exists_y________beta_i_x_y_",
+                        "enabled": "enabled",
+                        "name": "A \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) \\implies B \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)",
+                        "merged": true,
+                        "keywords": [
+                          "A \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y) \\implies B \\models \\bigwedge_i \\forall x \\exists y \\ . \\ \\beta_i(x,y)"
+                        ],
+                        "eventId": "8"
+                      }
+                    ],
+                    "keywords": [
+                      "Construction 2"
+                    ],
+                    "eventId": "12",
+                    "originalParams": {
+                      "Satisfiability2": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence2": {
+                        "opacity": 1
+                      },
+                      "_bigwedge_i__forall_x__exists_y________beta_i_x_y_": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence3": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence4": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence6": {
+                        "opacity": 1
+                      },
+                      "A__models__bigwedge_i__forall_x__exists_y________beta_i_x_y___implies_B__models__bigwedge_i__forall_x__exists_y________beta_i_x_y_": {
+                        "opacity": 1
+                      }
+                    }
+                  },
+                  {
+                    "type": "child",
+                    "name": "Construction 3",
+                    "id": "Construction_3",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Satisfiability2",
+                        "enabled": "enabled",
+                        "name": "Types",
+                        "merged": false,
+                        "keywords": [
+                          "Types"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence2",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence3",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "4"
+                      },
+                      {
+                        "type": "show",
+                        "id": "t____k___t___text_max__kl__3l___leq_k__text_max__kl__3l___leq_2__2n___4m_",
+                        "enabled": "enabled",
+                        "name": "t + (k - t) \\text{max}(kl, 3l) \\leq k \\text{max}(kl, 3l) \\leq 2^{2n + 4m}",
+                        "merged": false,
+                        "keywords": [
+                          "t + (k - t) \\text{max}(kl, 3l) \\leq k \\text{max}(kl, 3l) \\leq 2^{2n + 4m}"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence4",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": true,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "6"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence5",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "8"
+                      }
+                    ],
+                    "keywords": [
+                      "Construction 3"
+                    ],
+                    "eventId": "10",
+                    "originalParams": {
+                      "Satisfiability2": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence2": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence3": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence": {
+                        "opacity": 1
+                      },
+                      "t____k___t___text_max__kl__3l___leq_k__text_max__kl__3l___leq_2__2n___4m_": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence4": {
+                        "opacity": 1
+                      },
+                      "For_given_sentence5": {
+                        "opacity": 1
+                      }
+                    }
+                  },
+                  {
+                    "type": "child",
+                    "name": "Construction details",
+                    "id": "Construction_details",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Satisfiability2",
+                        "enabled": "enabled",
+                        "name": "Types",
+                        "merged": false,
+                        "keywords": [
+                          "Types"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "For_given_sentence2",
+                        "enabled": "enabled",
+                        "name": "For given sentence",
+                        "merged": false,
+                        "keywords": [
+                          "For given sentence"
+                        ],
+                        "eventId": "2"
+                      }
+                    ],
+                    "keywords": [
+                      "Construction details"
+                    ],
+                    "eventId": "13",
+                    "originalParams": {
+                      "Satisfiability2": {
                         "opacity": 1
                       },
                       "For_given_sentence2": {
