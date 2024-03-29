@@ -16,7 +16,8 @@
     "Types_3": "Types_3",
     "Construction_2": "Construction_2",
     "Construction_3": "Construction_3",
-    "Construction_details": "Construction_details"
+    "Construction_details": "Construction_details",
+    "Scott_3": "Scott_3"
   },
   "tree": {
     "type": "child",
@@ -948,29 +949,7 @@
                 "keywords": [
                   "For given sentence"
                 ],
-                "eventId": "4"
-              },
-              {
-                "type": "show",
-                "id": "For_given_sentence",
-                "enabled": "enabled",
-                "name": "For given sentence",
-                "merged": false,
-                "keywords": [
-                  "For given sentence"
-                ],
-                "eventId": "5"
-              },
-              {
-                "type": "show",
-                "id": "_forall_textbf_v__Q__Psi__textbf_v___iff_theta____Psi___textbf_v___",
-                "enabled": "enabled",
-                "name": "\\forall\\textbf{v}(Q_\\Psi(\\textbf{v})\\iff\\theta'_{\\Psi}(\\textbf{v}))",
-                "merged": true,
-                "keywords": [
-                  "\\forall\\textbf{v}(Q_\\Psi(\\textbf{v})\\iff\\theta'_{\\Psi}(\\textbf{v}))"
-                ],
-                "eventId": "6"
+                "eventId": "11"
               },
               {
                 "type": "show",
@@ -981,29 +960,215 @@
                 "keywords": [
                   "For given sentence"
                 ],
-                "eventId": "7"
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "_psi_x_____exists_y__psi_0_x_y_",
+                "enabled": "enabled",
+                "name": "\\psi(x) = \\exists y \\psi_0(x,y)",
+                "merged": true,
+                "keywords": [
+                  "\\psi(x) = \\exists y \\psi_0(x,y)"
+                ],
+                "eventId": "14"
               },
               {
                 "type": "show",
                 "id": "For_given_sentence4",
                 "enabled": "enabled",
                 "name": "For given sentence",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "For given sentence"
                 ],
-                "eventId": "8"
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "_psi_x_____forall_y__psi_0_x_y_",
+                "enabled": "enabled",
+                "name": "\\psi(x) = \\forall y \\psi_0(x,y)",
+                "merged": true,
+                "keywords": [
+                  "\\psi(x) = \\forall y \\psi_0(x,y)"
+                ],
+                "eventId": "16"
               },
               {
                 "type": "show",
                 "id": "For_given_sentence5",
                 "enabled": "enabled",
                 "name": "For given sentence",
+                "merged": true,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "_psi_0",
+                "enabled": "enabled",
+                "name": "\\psi_0",
+                "merged": true,
+                "keywords": [
+                  "\\psi_0"
+                ],
+                "eventId": "28"
+              },
+              {
+                "type": "show",
+                "id": "_psi____exists_y__psi_0_y_",
+                "enabled": "enabled",
+                "name": "\\psi = \\exists y \\psi_0(y)",
+                "merged": true,
+                "keywords": [
+                  "\\psi = \\exists y \\psi_0(y)"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence6",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": true,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "show",
+                "id": "_psi____forall_y__psi_0_y_",
+                "enabled": "enabled",
+                "name": "\\psi = \\forall y \\psi_0(y)",
+                "merged": true,
+                "keywords": [
+                  "\\psi = \\forall y \\psi_0(y)"
+                ],
+                "eventId": "20"
+              },
+              {
+                "type": "show",
+                "id": "where_is_quantifier_free",
+                "enabled": "enabled",
+                "name": "where is quantifier-free",
+                "merged": true,
+                "keywords": [
+                  "where is quantifier-free"
+                ],
+                "eventId": "21"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence",
+                "enabled": "enabled",
+                "name": "For given sentence",
                 "merged": false,
                 "keywords": [
                   "For given sentence"
                 ],
-                "eventId": "9"
+                "eventId": "22"
+              },
+              {
+                "type": "show",
+                "id": "_theta___psi_____forall_x__exists_y___psi_0__x_y___iff_P___psi__x____________textit_if___________psi_x_____exists_y__psi_0_x_y_",
+                "enabled": "enabled",
+                "name": "\\theta_{\\psi} = \\forall x \\exists y (\\psi_0 (x,y) \\iff P_{\\psi}(x)) \\ \\ \\ \\ \\textit{if} \\ \\ \\ \\ \\psi(x) = \\exists y \\psi_0(x,y)",
+                "merged": false,
+                "keywords": [
+                  "\\theta_{\\psi} = \\forall x \\exists y (\\psi_0 (x,y) \\iff P_{\\psi}(x)) \\ \\ \\ \\ \\textit{if} \\ \\ \\ \\ \\psi(x) = \\exists y \\psi_0(x,y)"
+                ],
+                "eventId": "23"
+              },
+              {
+                "type": "show",
+                "id": "_theta___psi_____forall_x__forall_y___psi_0__x_y___iff_P___psi__x____________textit_if___________psi_x_____forall_y__psi_0_x_y_",
+                "enabled": "enabled",
+                "name": "\\theta_{\\psi} = \\forall x \\forall y (\\psi_0 (x,y) \\iff P_{\\psi}(x)) \\ \\ \\ \\ \\textit{if} \\ \\ \\ \\ \\psi(x) = \\forall y \\psi_0(x,y)",
+                "merged": false,
+                "keywords": [
+                  "\\theta_{\\psi} = \\forall x \\forall y (\\psi_0 (x,y) \\iff P_{\\psi}(x)) \\ \\ \\ \\ \\textit{if} \\ \\ \\ \\ \\psi(x) = \\forall y \\psi_0(x,y)"
+                ],
+                "eventId": "24"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_1",
+                "enabled": "enabled",
+                "name": "Rectangle 1",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 1"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "show",
+                "id": "Arrow_4",
+                "enabled": "enabled",
+                "name": "Arrow 4",
+                "merged": true,
+                "keywords": [
+                  "Arrow 4"
+                ],
+                "eventId": "26"
+              },
+              {
+                "type": "show",
+                "id": "introduced_relation",
+                "enabled": "enabled",
+                "name": "introduced relation",
+                "merged": true,
+                "keywords": [
+                  "introduced relation"
+                ],
+                "eventId": "27"
+              },
+              {
+                "type": "child",
+                "name": "Scott 3",
+                "id": "Scott_3",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence2",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_given_sentence",
+                    "enabled": "enabled",
+                    "name": "For given sentence",
+                    "merged": false,
+                    "keywords": [
+                      "For given sentence"
+                    ],
+                    "eventId": "2"
+                  }
+                ],
+                "keywords": [
+                  "Scott 3"
+                ],
+                "eventId": "12",
+                "originalParams": {
+                  "For_given_sentence": {
+                    "opacity": 1
+                  },
+                  "For_given_sentence2": {
+                    "opacity": 1
+                  }
+                }
               }
             ],
             "keywords": [
@@ -1020,19 +1185,52 @@
               "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
                 "opacity": 1
               },
-              "For_given_sentence": {
-                "opacity": 1
-              },
-              "_forall_textbf_v__Q__Psi__textbf_v___iff_theta____Psi___textbf_v___": {
-                "opacity": 1
-              },
               "For_given_sentence2": {
+                "opacity": 1
+              },
+              "_psi_x_____exists_y__psi_0_x_y_": {
                 "opacity": 1
               },
               "For_given_sentence4": {
                 "opacity": 1
               },
+              "_psi_x_____forall_y__psi_0_x_y_": {
+                "opacity": 1
+              },
               "For_given_sentence5": {
+                "opacity": 1
+              },
+              "_psi____exists_y__psi_0_y_": {
+                "opacity": 1
+              },
+              "For_given_sentence6": {
+                "opacity": 1
+              },
+              "_psi____forall_y__psi_0_y_": {
+                "opacity": 1
+              },
+              "where_is_quantifier_free": {
+                "opacity": 1
+              },
+              "For_given_sentence": {
+                "opacity": 1
+              },
+              "_theta___psi_____forall_x__exists_y___psi_0__x_y___iff_P___psi__x____________textit_if___________psi_x_____exists_y__psi_0_x_y_": {
+                "opacity": 1
+              },
+              "_theta___psi_____forall_x__forall_y___psi_0__x_y___iff_P___psi__x____________textit_if___________psi_x_____forall_y__psi_0_x_y_": {
+                "opacity": 1
+              },
+              "Rectangle_1": {
+                "opacity": 1
+              },
+              "Arrow_4": {
+                "opacity": 1
+              },
+              "introduced_relation": {
+                "opacity": 1
+              },
+              "_psi_0": {
                 "opacity": 1
               }
             }
