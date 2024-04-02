@@ -17,7 +17,8 @@
     "Construction_2": "Construction_2",
     "Construction_3": "Construction_3",
     "Construction_details": "Construction_details",
-    "Scott_3": "Scott_3"
+    "Scott_3": "Scott_3",
+    "History": "History"
   },
   "tree": {
     "type": "child",
@@ -58,6 +59,17 @@
           "Scott form"
         ],
         "eventId": "6"
+      },
+      {
+        "type": "show",
+        "id": "Scott_form2",
+        "enabled": "enabled",
+        "name": "Scott form",
+        "merged": false,
+        "keywords": [
+          "Scott form"
+        ],
+        "eventId": "11"
       },
       {
         "type": "show",
@@ -1293,6 +1305,91 @@
       },
       {
         "type": "child",
+        "name": "History",
+        "id": "History",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Satisfiability2",
+            "enabled": "enabled",
+            "name": "Scott form",
+            "merged": false,
+            "keywords": [
+              "Scott form"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence2",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "For_given_sentence3",
+            "enabled": "enabled",
+            "name": "For given sentence",
+            "merged": false,
+            "keywords": [
+              "For given sentence"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "History"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Satisfiability2": {
+            "opacity": 1
+          },
+          "Syntax_consists_of_connectives_________and_atomic_formulas_made_from_relational_predicates_of_arbitrary_arity_Quantification_over_first_order_variables_No_functional_symbols_allowed": {
+            "opacity": 1
+          },
+          "For_given_sentence": {
+            "opacity": 1
+          },
+          "For_given_sentence2": {
+            "opacity": 1
+          },
+          "For_given_sentence3": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
         "name": "Types",
         "id": "Types",
         "enabled": "enabled",
@@ -1546,6 +1643,17 @@
                   "Types"
                 ],
                 "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "For_given_sentence7",
+                "enabled": "enabled",
+                "name": "For given sentence",
+                "merged": false,
+                "keywords": [
+                  "For given sentence"
+                ],
+                "eventId": "13"
               },
               {
                 "type": "show",
@@ -2411,6 +2519,9 @@
         "opacity": 1
       },
       "Simple_decidability": {
+        "opacity": 1
+      },
+      "Scott_form2": {
         "opacity": 1
       }
     }
